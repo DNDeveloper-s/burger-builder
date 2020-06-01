@@ -1,0 +1,71 @@
+$sideMargin: 40px;
+
+.OrderSummary {
+  padding: 35px 0;
+  box-sizing: border-box;
+  position: relative;
+
+  > * {
+    margin: 0 $sideMargin;
+  }
+
+  > h3 {
+    margin: 10px $sideMargin 4px;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #737373;
+  }
+
+  p {
+    margin: 0 $sideMargin;
+    font-size: 14px;
+    color: rgba(148, 148, 148, 0.93);
+  }
+
+  > .Actions {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    > button {
+      margin: 10px $sideMargin;
+    }
+
+    > .Information {
+      margin: 0;
+      color: rgb(255, 118, 54);
+    }
+  }
+}
+
+.Price {
+  color: #ff544b;
+}
+
+.IngredientList {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Ingredients {
+  padding: 10px $sideMargin;
+  border-radius: 4px;
+  background: lightgrey;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+
+.FlexButtons {
+  margin-top: 10px;
+  display: flex;
+
+  > button {
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}

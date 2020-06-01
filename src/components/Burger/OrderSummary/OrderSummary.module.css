@@ -1,0 +1,62 @@
+.OrderSummary {
+  padding: 35px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.OrderSummary > * {
+  margin: 0 40px;
+}
+.OrderSummary > h3 {
+  margin: 10px 40px 4px;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #737373;
+}
+.OrderSummary p {
+  margin: 0 40px;
+  font-size: 14px;
+  color: rgba(148, 148, 148, 0.93);
+}
+.OrderSummary > .Actions {
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.OrderSummary > .Actions > button {
+  margin: 10px 40px;
+}
+.OrderSummary > .Actions > .Information {
+  margin: 0;
+  color: #ff7636;
+}
+
+.Price {
+  color: #ff544b;
+}
+
+.IngredientList {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Ingredients {
+  padding: 10px 40px;
+  border-radius: 4px;
+  background: lightgrey;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+
+.FlexButtons {
+  margin-top: 10px;
+  display: flex;
+}
+.FlexButtons > button:first-child {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=OrderSummary.module.css.map */

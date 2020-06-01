@@ -1,0 +1,60 @@
+.Button {
+  padding: 8px 15px;
+  background: #5eb12b;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: .15s ease;
+
+  &:hover {
+    background: rgba(75, 140, 34, 0.98);
+  }
+
+  &:disabled {
+    background: rgba(192, 196, 194, 0.8);
+    cursor: not-allowed;
+
+    &:hover {
+      background: rgba(192, 196, 194, 0.8);
+    }
+  }
+
+  &:not(:disabled) {
+    animation: enabled .2s ease-in-out forwards;
+    cursor: pointer;
+  }
+}
+
+@keyframes enabled {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+.Red {
+  background: #ff3635;
+
+  &:hover {
+    background: rgba(223, 50, 49, 0.97);
+  }
+}
+
+.Blue {
+  background: #4792ff;
+
+  &:hover {
+    background: rgba(55, 114, 199, 0.97);
+  }
+}

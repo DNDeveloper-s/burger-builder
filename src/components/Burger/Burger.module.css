@@ -1,0 +1,20 @@
+.Burger {
+    display: flex;
+    overflow: auto;
+    height: 100%;
+    margin-top: 60px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .Burger {
+        min-height: 350px;
+    }
+}
+
+.noIngredients {
+    text-align: center;
+    margin: 25px 0 18px;
+    font-weight: bold;
+}

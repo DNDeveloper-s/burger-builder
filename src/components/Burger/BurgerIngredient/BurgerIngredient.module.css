@@ -1,0 +1,38 @@
+.ingredient {
+    position: relative;
+    text-align: center;
+    zoom: 3.5;
+}
+
+@media (max-width: 600px) {
+    .ingredient {
+        zoom: 2.5;
+    }
+}
+
+.ingredient > img {
+    position: relative;
+}
+
+.TopBun {
+    width: 100%;
+    margin-bottom: -7px;
+    z-index: 300;
+}
+
+.Salad {
+    margin-bottom: -13px;
+}
+
+.Cheese {
+    margin-bottom: -6px;
+}
+
+.Patty {
+    margin-bottom: -29px;
+}
+
+.BottomBun {
+    margin-bottom: -29px;
+    z-index: -30000;
+}

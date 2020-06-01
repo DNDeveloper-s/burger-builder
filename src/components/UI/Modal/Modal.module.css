@@ -1,0 +1,25 @@
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    height: auto;
+    min-height: 300px;
+    background: white;
+    transform: translate(-50%, -50%) translateY(-25px);
+    z-index: 3500;
+    max-width: 600px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    transition: .4s cubic-bezier(0,1.13,.8,1.12);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.Modal.show {
+    transform: translate(-50%, -50%) translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}

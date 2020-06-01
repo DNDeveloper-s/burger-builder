@@ -1,0 +1,16 @@
+.BuildControls {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 222, 120, 0.65);
+    padding: 40px 10px;
+}
+
+.OrderNow {
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: 800;
+}
